@@ -1,3 +1,5 @@
+# I pulled this code from
+# https://docs.google.com/document/d/146gCqBlJZkalX0boNa38z7UagzVxvAw1fQGfvvnr6I8/edit?pli=1
 def glob_match(filenames,pattern)
   pattern.gsub!(/[\*\?\.]/,'*' => '.*', '.' => '\.', '?' => '.')
   regex = Regexp.new(pattern)
