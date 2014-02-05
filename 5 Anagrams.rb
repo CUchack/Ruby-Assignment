@@ -10,7 +10,7 @@ def combine_anagrams(words)
     while j < words.length
       found_anagram = false;
       if words[i].downcase.split("").sort.join == words[j].downcase.split("").sort.join
-        #print "anagram je";
+
         found_anagram = true;
         array << words[j];
         words.delete_at(j);
