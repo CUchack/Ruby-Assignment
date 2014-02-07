@@ -13,3 +13,4 @@ count_words "Doo bee doo bee doo"
 
 # I found this example code on the Ruby forums at
 # https://www.ruby-forum.com/topic/84374
+puts glob_match(["part1.rb","part2.rb","part2.rb~",".part3.rb.un~"],"*part*rb?*")
